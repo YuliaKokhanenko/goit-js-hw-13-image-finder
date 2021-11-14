@@ -6,7 +6,7 @@
   "homepage": "https://YuliaKokhanenko.github.io/goit-js-hw-13-image-finder",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finderr/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/",
     "server": "json-server --watch db.json -p 7777",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
